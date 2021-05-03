@@ -1,0 +1,147 @@
+body{
+    font-family: 'Inter', sans-serif;
+    height: 700px;
+}
+.info{
+    margin-top: 45px;
+
+}
+.numbers{
+    margin-top: 20px;
+    text-align: center;
+}
+.numbers .box{
+    height: 265px;
+    background-color: #F0F2FA;
+    margin-left: 27px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.numbers .box:hover{
+    background-color: #E1E3F0;
+}
+
+.overview .views{
+    margin-top: 20px;
+}
+.overview .views .box{
+    background-color: #F0F2FA;
+    margin-left: 27px;
+    text-align: center;
+    height: 119px;
+    margin-bottom: 27px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.overview .views .box:hover{
+    background-color: #E1E3F0;
+}
+.overview .views .box h2{
+    float: left;
+    width: 80%;
+}
+.overview .views .box .fa-facebook-square{
+    float: left;
+    width: 20%;
+}
+.overview .views .box span{
+    float: left;
+    width: 80%;
+}
+.overview .views .box p{
+    float: left;
+    width: 20%;
+}
+.sort{
+    margin-top: 30px;
+    font-size: 11px;
+    color: #5DDA89;
+    margin-left: 112px;
+}
+.num{
+    top: 72px;
+    position: absolute;
+    font-size: 26px;
+}
+.head{ 
+    margin-top: 7px;
+    color: #6D687E;
+    font-size: 13px;
+}
+.Total-Followers p{
+    color: #6D687E;
+}
+
+@media(max-width:767px){
+    .numbers .box{
+        margin-bottom: 5px;
+    }
+}
+
+
+
+/*
+
+.toggle{
+    position: relative;
+    width: var(--toggle-width);
+    height:var(--toggle-height);
+    background: #c1c0c0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .3s ;
+}
+
+.toggle-circle{
+    position: absolute;
+    width: var(--circle-width);
+    height:var(--circle-width);
+    left: var(--circle-margin);
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.toggle--isActive .toggle-circle{
+    left: calc(var(--toggle-width) - var(--circle-width)- var(--circle-margin));
+}
+
+:root{
+    --toggle-width:52px;
+    --toggle-height:25px;
+    --circle-margin:3px;
+    --circle-width:21px
+}
+
+.toggle--isActive{
+    background-color: #83ea0d;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

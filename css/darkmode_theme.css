@@ -1,0 +1,31 @@
+body{
+    background-color: #1E202A;
+}
+.Total-Followers h2,
+.overview h2{
+  color: #fff;
+}
+.Total-Followers p{
+    color: #8B97BC;
+}
+.numbers .box,
+.overview .views .box{
+    background-color: #252A41;
+}
+.numbers .box:hover,
+.overview .views .box:hover{
+    background-color: #333A57;
+}
+.numbers .big-num,
+.num{
+    color: #fff;
+}
+.fa-moon, 
+.light,
+.dark{
+    color: #fff;
+}
+.nat,
+.head{
+    color: #8B97BF;
+}

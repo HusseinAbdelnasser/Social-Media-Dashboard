@@ -1,0 +1,19 @@
+.numbers .box{
+    background-color: #F0F2FA;
+}
+.numbers .box:hover{
+    background-color: #E1E3F0;
+}
+
+.overview .views .box{
+    background-color: #F0F2FA;
+}
+.overview .views .box:hover{
+    background-color: #E1E3F0;
+}
+.Total-Followers p{
+    color: #6D687E;
+}
+.Total-Followers .big-num{
+    color: #000;
+}
